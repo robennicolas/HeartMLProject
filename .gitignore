@@ -206,4 +206,44 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# ===============================
+# Environnement virtuel
+# ===============================
+heart_env/
+bin/
+lib/
+lib64/
+include/
+pyvenv.cfg
+
+# ===============================
+# Fichiers temporaires Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===============================
+# Données lourdes et modèles
+# ===============================
+*.npy
+*.pkl
+*.csv
+*.h5
+*.pt
+*.pth
+*.mat
+
+# ===============================
+# Autres fichiers inutiles
+# ===============================
+.DS_Store
+*.log
+*.tmp
+
+# ===============================
+# Dossiers spécifiques
+# ===============================
+.ptbxl/
 
